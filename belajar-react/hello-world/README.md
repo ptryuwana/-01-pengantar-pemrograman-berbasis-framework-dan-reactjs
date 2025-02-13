@@ -48,11 +48,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ### Praktikum 1: Menyiapkan Lingkungan Pengembangan
 
 1. Download dan Install Git
-![Screenshot](assets-report\p1-download-git.png)
+![Screenshot](assets-report/p1-download-git.png)
 2. Download dan Install VSCode
-![Screenshot](assets-report\p1-download-vscode.png)
+![Screenshot](assets-report/p1-download-vscode.png)
 3. Download dan Install NodeJS
-![Screenshot](assets-report\p1-download-nodejs.png)
+![Screenshot](assets-report/p1-download-nodejs.png)
 
 #### Pertanyaan:
 1.	Jelaskan kegunaan masing-masing dari Git, VS Code dan NodeJS yang telah Anda install pada sesi praktikum ini!
@@ -61,23 +61,23 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 1.	Git adalah sistem kontrol versi (Version Control System) yang digunakan untuk mengelola perubahan kode sumber dalam pengembangan perangkat lunak. VS Code adalah editor kode sumber yang ringan namun memiliki banyak fitur, seperti debugging, syntax highlighting, IntelliSense (auto-complete), serta integrasi dengan terminal dan Git. Node.js adalah runtime JavaScript yang memungkinkan eksekusi kode JavaScript di luar browser. 
 2.	Berikut screenshoot bukti terinstall
 a.	Git
-![Screenshot](assets-report\p1-git.png)
+![Screenshot](assets-report/p1-git.png)
 b.	VSCode
-![Screenshot](assets-report\p1-vscode.png)
+![Screenshot](assets-report/p1-vscode.png)
 c.	NodeJS 
-![Screenshot](assets-report\p1-nodejs.png)
+![Screenshot](assets-report/p1-nodejs.png)
 
 ### Praktikum 2: Membuat Proyek Pertama React Menggunakan Next.js
 
 1. Membuat folder proyek baru dengan nama belajar-react. Melalui konsol/command prompt/CMD masuk ke dalam folder tersebut dan jalankan perintah ini: npx create-next-app	 
-![Screenshot](assets-report\p2-no1.png)
+![Screenshot](assets-report/p2-no1.png)
 2. Buat proyek baru dengan nama hello-world seperti di bawah ini. Nama proyek ini perlu dimasukkan pertama kali melalui konsol.
-![Screenshot](assets-report\p2-no2.png)	 
+![Screenshot](assets-report/p2-no2.png)	 
 3. Buka folder proyek hello-world menggunakan VS Code. Masuk ke dalam folder proyek hello world dengan perintah: cd hello-world. Kemudian setelah masuk ke folder hello-world, masukkan perintah: code .. Maka VS Code akan membuka project react Anda yang telah dibuat bernama hello-world.	 
-![Screenshot](assets-report\p2-no3a.png)
-![Screenshot](assets-report\p2-no3b.png)
+![Screenshot](assets-report/p2-no3a.png)
+![Screenshot](assets-report/p2-no3b.png)
 4. Running proyek hello-world dengan memasukkan perintah di bawah ini melalui konsol atau terminal di dalam VS Code. npm run dev. Tunggu proses kompilasi hingga selesai. Lalu Anda dapat membuka alamat localhost di browser: http://localhost:3000/
-![Screenshot](assets-report\p2-no4.png)
+![Screenshot](assets-report/p2-no4.png)
 
 #### Pertanyaan:
 1.	Pada Langkah ke-2, setelah membuat proyek baru menggunakan Next.js, terdapat beberapa istilah yang muncul. Jelaskan istilah tersebut, TypeScript, ESLint, Tailwind CSS, App Router, Import alias, dan Turbopack!
@@ -110,13 +110,13 @@ m.	next-env.d.ts - File deklarasi tipe untuk memastikan bahwa TypeScript mengena
 ### Praktikum 3: Menambahkan Komponen React (Button)
 
 1. Di dalam folder proyek yang telah dibuka di VS Code, buka file page.tsx
-![Screenshot](assets-report\p3-no1.png)	 
+![Screenshot](assets-report/p3-no1.png)	 
 2. Tambahkan fungsi MyButton yang mengembalikan markup komponen button yang akan ditambahkan ke dalam webpage
-![Screenshot](assets-report\p3-no2.png)	 
+![Screenshot](assets-report/p3-no2.png)	 
 3. Tambahkan komponen button tersebut di samping button Read Our Docs. Perhatikan bahwa komponen MyButton dimulai dengan huruf kapital. Dengan cara itulah Anda mengetahui bahwa itu adalah sebuah komponen React. Nama komponen React harus selalu dimulai dengan huruf kapital, sedangkan tag HTML harus menggunakan huruf kecil. Kata kunci export default menentukan komponen utama di dalam berkas (file).	
-![Screenshot](assets-report\p3-no3.png)	 
+![Screenshot](assets-report/p3-no3.png)	 
 4. Simpan perubahan dan coba lihat perubahan melalui web browser!	 
-![Screenshot](assets-report\p3-no4.png)	 
+![Screenshot](assets-report/p3-no4.png)	 
 
 #### Pertanyaan:
 1.	Buktikan dengan screenshoot yang menunjukkan bahwa tahapan percobaan di atas telah berhasil Anda lakukan!
@@ -126,11 +126,11 @@ m.	next-env.d.ts - File deklarasi tipe untuk memastikan bahwa TypeScript mengena
 ### Praktikum 4: Menulis Markup dengan JSX
 
 1. Tambahkan kode JSX ke dalam file page.tsx.	 
-![Screenshot](assets-report\p4-no1.png)	 
+![Screenshot](assets-report/p4-no1.png)	 
 2. Tambahkan komponen MyProfile setelah kompnen MyButton.	 
-![Screenshot](assets-report\p4-no2.png)
+![Screenshot](assets-report/p4-no2.png)
 3. Simpan dan amati perubahan di halaman web yang dihasilkan!	 
-![Screenshot](assets-report\p4-no3.png)
+![Screenshot](assets-report/p4-no3.png)
 
 #### Pertanyaan:
 1.	Untuk apakah kegunaan sintaks user.imageUrl?
